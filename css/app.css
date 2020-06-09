@@ -1,0 +1,21 @@
+#intro{
+    height: 100vh;
+    background: linear-gradient(#ccc,#f00);
+    text-align: center;
+    color: #fff;
+}
+#intro .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#project01{
+    text-align: center;
+    opacity: 0;
+    padding: 200px 0;
+    transition: all 2s ease-in;
+}
+#project01.fade-in{
+    opacity:1;
+}
